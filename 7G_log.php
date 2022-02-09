@@ -212,7 +212,7 @@ function perishablePress_7G_get_patterns($string, $match,$blockedBy) {
 	
 	foreach ($patterns as $pattern) {
 		
-		$string .= (!empty($pattern)) ? ' ['.$blockedby.":". $pattern .'] ' : '';
+		$string .= (!empty($pattern)) ? ' ['.$blockedBy.":". $pattern .'] ' : '';
 		
 	}
 	
