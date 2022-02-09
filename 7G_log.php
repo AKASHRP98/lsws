@@ -207,7 +207,7 @@ function perishablePress_7G_http_referrer() {
 }
 
 function perishablePress_7G_get_patterns($string, $match,$blockedBy) {
-	
+	echo $blockedBy;
 	$patterns = explode('___', $match);
 	
 	foreach ($patterns as $pattern) {
